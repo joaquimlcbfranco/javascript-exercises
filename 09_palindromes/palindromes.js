@@ -7,7 +7,7 @@ const palindromes = function (string) {
                     .filter(char => alphanumerical.includes(char))
                     .join('')
 
-    return word.split('').reverse().join('') === word ? true : false;
+    return word.split('').reverse().join('') === word;
 };
 
 // Do not edit below this line
